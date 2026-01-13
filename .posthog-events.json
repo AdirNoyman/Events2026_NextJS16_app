@@ -1,0 +1,12 @@
+[
+  {
+    "event_name": "homepage_viewed",
+    "description": "User views the homepage - top of conversion funnel for event discovery",
+    "file_path": "app/page.tsx"
+  },
+  {
+    "event_name": "featured_events_section_viewed",
+    "description": "User scrolls to view the featured events section on homepage",
+    "file_path": "app/page.tsx"
+  }
+]
