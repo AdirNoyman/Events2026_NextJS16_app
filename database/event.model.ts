@@ -30,7 +30,7 @@ const eventSchema = new Schema<IEvent>(
     },
     slug: {
       type: String,
-      unique: true,
+      unique: [true, 'Slug, the value in the title field, must be unique 🤨'],
       index: true,
     },
     description: {
